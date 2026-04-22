@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flatline AS — We put the dead in deadline</title>
+  <meta name="description" content="Flatline AS er et Oslo-basert teknologiselskap som utvikler digitale produkter, mobilapper og nettsystemer." />
+  <meta property="og:title" content="Flatline AS" />
+  <meta property="og:description" content="We put the dead in deadline." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#080808" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Nav ── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <div class="logo-dot"></div>
+        Flatline
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">Om oss</a></li>
+        <li><a href="#services">Tjenester</a></li>
+        <li><a href="#contact" class="nav-cta">Kontakt oss</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section id="hero">
+    <div class="container hero-content">
+      <div class="hero-tag">Oslo, Norge</div>
+      <h1>We put the <em>dead</em><br>in deadline.</h1>
+      <p class="hero-sub">
+        Flatline AS er et teknologiselskap som bygger digitale produkter folk faktisk bruker —
+        mobilapper, nettsider og systemer som leverer på tid og overrasker på kvalitet.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Ta kontakt</a>
+        <a href="#services" class="btn btn-ghost">Hva vi gjør</a>
+      </div>
+    </div>
+    <canvas class="ekg-wrap" id="ekgCanvas"></canvas>
+  </section>
+
+  <!-- ── About ── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <div class="section-label">Om oss</div>
+          <h2>Teknologi som faktisk fungerer</h2>
+          <p class="lead">
+            Vi er et lite og spesialisert team med høy teknisk kompetanse.
+            Vi jobber tett med kunder for å forstå problemet ordentlig —
+            og bygger løsninger som er enkle å bruke, enkle å vedlikeholde
+            og som tåler vekst.
+          </p>
+          <p style="color: var(--muted); font-size: 14px; line-height: 1.7;">
+            Flatline AS ble stiftet i Oslo og har levert digitale produkter for
+            alt fra startups til etablerte organisasjoner. Vi tror på åpenhet,
+            god kommunikasjon og ærlig rådgivning — også når det betyr å si
+            fra når noe ikke er den beste løsningen.
+          </p>
+        </div>
+        <div class="about-facts">
+          <div class="fact-card">
+            <div class="num">100%</div>
+            <div class="label">Norskbasert team</div>
+          </div>
+          <div class="fact-card">
+            <div class="num">iOS</div>
+            <div class="label">& Android-utvikling</div>
+          </div>
+          <div class="fact-card">
+            <div class="num">Full</div>
+            <div class="label">Stack-kompetanse</div>
+          </div>
+          <div class="fact-card">
+            <div class="num">On<br>time.</div>
+            <div class="label" style="margin-top: 4px;">Alltid</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Services ── -->
+  <section id="services">
+    <div class="container">
+      <div class="section-label">Tjenester</div>
+      <h2>Hva vi gjør</h2>
+      <p class="lead">
+        Fra idé til ferdig produkt. Vi leverer hele stacken — design, utvikling og lansering.
+      </p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">📱</div>
+          <h3>Mobilapper</h3>
+          <p>
+            Native iOS- og Android-apper bygget med moderne teknologi.
+            Vi lager apper som er raske, tilgjengelige og trivelige å bruke —
+            for seniorer, fagfolk og alle imellom.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌐</div>
+          <h3>Webutvikling</h3>
+          <p>
+            Nettsider og webapplikasjoner med fokus på ytelse og brukervennlighet.
+            Fra enkle landingssider til komplekse systemer med API-integrasjoner.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⚙️</div>
+          <h3>Systemutvikling</h3>
+          <p>
+            Backend-systemer, APIer og integrasjoner som holder produktet ditt
+            oppe og skalerer med virksomheten. Vi jobber med moderne og
+            veldokumenterte teknologier.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3>Produkt & design</h3>
+          <p>
+            God design er ikke bare estetikk — det er logikk.
+            Vi hjelper deg å forme produktet fra idé til interaktiv prototype
+            før en eneste kodelinje skrives.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔒</div>
+          <h3>Personvern & sikkerhet</h3>
+          <p>
+            GDPR-kompatibel utvikling fra dag én. Vi tar datasikkerhet på alvor
+            og bygger systemer der personvern er en del av arkitekturen,
+            ikke en ettertanke.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🩺</div>
+          <h3>Teknisk rådgivning</h3>
+          <p>
+            Trenger du en second opinion på teknologivalg, arkitektur eller
+            leverandøravtaler? Vi gir ærlige, erfaringsbaserte råd — uten
+            bindinger til bestemte leverandører.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">Kontakt</div>
+      <h2>La oss snakke</h2>
+      <p class="lead">
+        Har du et prosjekt du vil realisere, eller bare lyst til å høre mer om hva vi kan gjøre for deg?
+        Send oss en e-post — vi svarer raskt.
+      </p>
+      <div class="contact-card">
+        <div class="hint">E-post</div>
+        <a class="email" href="mailto:kontakt@flatline.no">kontakt@flatline.no</a>
+        <div class="hint">Org. nr. 937 347 804 · Oslo, Norge</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left">
+        © 2025 Flatline AS · Org. nr. 937 347 804
+      </div>
+      <div class="footer-right">
+        <a href="personvern.html">Personvernerklæring</a>
+        <a href="mailto:kontakt@flatline.no">kontakt@flatline.no</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
